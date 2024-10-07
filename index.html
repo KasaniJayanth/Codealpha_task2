@@ -1,0 +1,77 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Social Media</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simple Social Media</h1>
+            <nav>
+                <a href="#" id="profile-link">Profile</a>
+                <a href="#" id="posts-link">Posts</a>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="post-section">
+                <h2>Create Post</h2>
+                <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+                <button onclick="createPost()">Post</button>
+            </section>
+
+            <section id="posts-list">
+                <h2>Posts</h2>
+            -->
+               
+
+
+
+
+
+
+
+
+
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="styles.css">
+                <title>Simple Social Media</title>
+            </head>
+            <body>
+                <div id="app">
+                    <h1>Simple Social Media</h1>
+                    
+                    <div>
+                        <h2>Create User Profile</h2>
+                        <input id="username" placeholder="Enter username">
+                        <button onclick="createUser()">Create Profile</button>
+                    </div>
+            
+                    <div id="userProfile" style="display:none;">
+                        <h2>User Profile</h2>
+                        <p>Username: <span id="profileUsername"></span></p>
+                        <p>Followers: <span id="followerCount">0</span></p>
+                        <button id="followButton" onclick="followUser()">Follow</button>
+                    </div>
+            
+                    <div>
+                        <h2>Create Post</h2>
+                        <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+                        <button onclick="createPost()">Post</button>
+                    </div>
+            
+                    <div id="posts"></div>
+                </div>
+                <script src="script.js"></script>
+            </body>
+            </html>
+            
+

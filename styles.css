@@ -1,0 +1,82 @@
+/* Existing styles remain the same
+
+.post {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment {
+    border-top: 1px solid #eee;
+    padding: 5px 0;
+}
+
+button {
+    cursor: pointer;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #74ebd5, #9face6); /* Gradient background */
+    color: #333; /* Text color */
+}
+
+#app {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white; /* White background for the app container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+h1, h2 {
+    color: #333; /* Dark color for headings */
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners for inputs */
+}
+
+button {
+    background-color: #6c63ff; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+button:hover {
+    background-color: #5a54e3; /* Darker button color on hover */
+}
+
+.post {
+    background: #f9f9f9; /* Light background for posts */
+    padding: 15px; /* Padding inside post */
+    margin: 10px 0; /* Margin between posts */
+    border-radius: 5px; /* Rounded corners for posts */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect for posts */
+}
+
+.post p {
+    margin: 5px 0; /* Margin for paragraphs inside posts */
+}
